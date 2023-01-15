@@ -1,0 +1,311 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+
+/* common button design start */
+.btn{
+    width: 130px;
+    height: 40px;
+    margin-left:550Px;
+    margin-right:500Px;
+    background-color: rgba(255, 144, 14, 1);
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+
+.Exlore-btn{
+    margin-top:32Px;
+}
+
+.btn2{
+    width: 130px;
+    height: 40px;
+    background-color: rgba(255, 144, 14, 1);
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+
+.btn3{
+    width: 200px;
+    height: 80px;
+    background-color: rgba(255, 144, 14, 1);
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+
+/* common button design end */
+
+/* Navigation style start */
+.nav-title{
+    margin-top:30Px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 63px 240px;
+}
+nav ul li{
+    list-style: none;
+    margin:20Px;
+}
+nav ul{
+    display: flex;
+    margin-top:20Px;
+}
+/* Navigation style end */
+
+/* brand section start */
+.brand-section{
+    margin-left: 430px;
+    margin-right:500Px;
+}
+.brand-details{
+    margin-top:5Px;
+    line-height: 20px;
+    font-size: 10px;
+    color:rgba(114, 114, 114, 1);
+}
+
+.title-Position{
+    margin-left:70Px;
+}
+/* brand section end */
+
+
+/* images section start */
+.image-gallary{
+    gap: 20Px;
+}
+.image-size{
+    width: 800px;
+    height:400px;
+}
+.images-Position{
+    margin-left:240px;
+    margin-right:240px;
+    margin-top:20Px;
+}
+/* images section end */
+
+/* Quick list feature start */
+.quick-feature{
+    display: flex;
+    margin:50Px 80Px;
+}
+.images-resize{
+    width:200px;
+    height:200px;
+}
+.quick-info{
+    margin-top: 160px;
+    margin-left: 30px;
+}
+.Highlight-title1{
+    color:rgba(114, 114, 114, 1);
+    font-size:25Px;
+}
+.Highlight-title2{
+    color:rgba(255, 144, 14, 1);
+    font-size:25Px;
+}
+
+.features-details{
+    color:rgba(114, 114, 114, 1);
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom:20Px;
+    line-height: 20px;
+}
+/* Quick list feature end */
+
+/* love and enjoy section start */
+.LoveEnjoy{
+    display: flex;
+}
+.enjoy-details{
+    color:rgba(114, 114, 114, 1);
+    font-size: 12px;
+    width: 400px;
+    margin-top: 20px;
+}
+.Card{
+    width:400px;
+    padding: 14px;
+    background-color:whitesmoke;
+    box-shadow: 0Px 5Px 10Px gray;
+    margin-top: 20px;
+    border-radius:10px;
+}
+.architect-image-resize{
+    width:420px;
+    height:560px;
+}
+.architect-image-Position{
+    margin-left:150px;
+    margin-top: 70px;
+}
+.card-enjoy-section{
+    margin-left:80Px;
+}
+.button-design{
+    font-size: 30px;
+    color: aliceblue;
+}
+/* love and enjoy section end */
+
+/* some fact section start */
+.facts{
+    margin-left:80Px;
+    margin-bottom: 50px;
+}
+/* some fact section end */
+
+
+/* achievement section start */
+.All-achivement-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.achivement-card{
+    
+    border: 1px solid rgba(255, 144, 14, 1);
+    width:120px;
+    height:120px;
+    margin:2px;
+}
+.achivement-img{
+    margin-left:40Px;
+    margin-top:3Px;
+    width: 40px;
+    height: 35px;
+}
+.number{
+    margin-left:47Px;
+}
+.details-descriPtion{
+    margin-left:10Px;
+}
+.email-align{
+    margin-left:20Px;
+}
+/* achievement section end */
+
+
+
+
+/* feature Product section start */
+.feature-Product{
+    display: flex;
+    margin-left:80Px;
+    margin-top: 50px;
+    margin-bottom:50Px;
+}
+.feature-Product-details{
+    margin-left:30Px;
+    margin-top:50Px;
+    text-align: justify;
+}
+.feature-details{
+    margin-top:5Px;
+    color:rgba(114, 114, 114, 1);
+    font-size: 12px;
+    line-height: 30px;
+}
+.btn5{
+    margin-top: 30px;
+    color:white;
+    background-color:deeppink;
+    width:196Px;
+    height: 44px;
+    margin-right: 200px;
+}
+.icon-size2{
+    width:20Px;
+    height:10Px;
+}
+/* feature Product section end */
+
+
+/* our sPonsPors section start */
+.sPonsPors-details{
+    margin-left:500Px;
+    margin-bottom:50Px;
+}
+/* our sPonsPors section end */
+
+/* tech giant website start */
+
+.tech-gaint{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:50Px;
+}
+.sPace{
+    margin: 20px 50px;
+}
+/* tech giant website end */
+
+/* coPyright issue start */
+.coPyright{
+    margin-left: 450px;
+    background-color:rgba(255, 244, 231, 1);
+    margin-bottom: 50px;
+    text-align:center;
+    height:50px;
+    width:600px;
+}
+/* coPyright issue end */
+
+
+/* footer section start */
+.footer{
+    background-color:black;
+    height:300px;
+}
+.footer-details{
+    margin-left:500Px;
+}
+.footer-title, .footer-des, .footer-des1{
+    color:white;
+}
+.footer-des{
+    margin-bottom:30px;
+}
+.social-media{
+    width:50Px;
+    height: 50px;  
+}
+
+.social-icons1{
+    background-color: aqua;
+    margin:5px;
+}
+.social-icons2{
+    background-color:red;
+    width:25Px;
+    height: 25px;
+    margin:5px;
+}
+.social-icons3{
+    background-color: blue;
+    width:25Px;
+    height: 25px;
+    margin:5px;
+}
+.social-media{
+    display: flex;
+    margin-top:50Px;
+    margin-left:500Px;
+}
+/* footer section end */
