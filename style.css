@@ -337,7 +337,46 @@ nav ul{
 
 
 /* ResPonsive design start */
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width:576px) {
+    .image-gallary{
+        display: flex;
+    }
+}
+@media only screen and (max-width:576px) {
+    .quick-info{
+        margin-top:20Px;
+        margin-left:150Px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .LoveANdEnjoy{
+        margin-left:70Px; 
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .facts{
+        margin-top:80Px; 
+        margin-left:450Px; 
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .achive-resonsive{
+        margin-left:650px;
+    }
+}
+@media only screen and (max-width:576px) {
+    .feature-Product{
+        margin-top:80Px;
+        margin-left: 300px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .tech-gaint{
+        margin-left: 620px;
+    }
 }
 /* ResPonsive design end */
