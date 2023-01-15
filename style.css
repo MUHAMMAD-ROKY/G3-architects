@@ -5,6 +5,9 @@
 }
 .header{
     background-color:rgba(255, 144, 14, 0.1);
+    width: 1440px;
+    margin-left:15Px;
+    margin-right:15Px;
 }
 
 /* common button design start */
@@ -53,7 +56,8 @@
 nav{
     display: flex;
     justify-content:space-between;
-    margin: 63px 240px;
+    margin: 0px 240px;
+    
 }
 nav ul li{
     list-style: none;
@@ -67,6 +71,7 @@ nav ul{
 
 /* brand section start */
 .brand-section{
+    margin-top: 50px;
     margin-left: 430px;
     margin-right:500Px;
 }
@@ -95,10 +100,14 @@ nav ul{
     margin-left:240px;
     margin-right:240px;
     margin-top:20Px;
+    padding-bottom:  30px;
 }
 /* images section end */
 
 /* Quick list feature start */
+.hole-Quick-section{
+    margin-left:30Px;
+}
 .quick-feature{
     display: flex;
     margin:50Px 80Px;
@@ -130,6 +139,9 @@ nav ul{
 /* Quick list feature end */
 
 /* love and enjoy section start */
+.LoveANdEnjoy{
+    margin-left:20Px;
+}
 .LoveEnjoy{
     display: flex;
 }
@@ -270,8 +282,12 @@ nav ul{
 
 /* footer section start */
 .footer{
+    padding-top:30Px;
     background-color:black;
     height:300px;
+    width: 1440px;
+    margin-left:15Px;
+    margin-right: 15px;
 }
 .footer-details{
     margin-left:500Px;
@@ -279,8 +295,11 @@ nav ul{
 .footer-title, .footer-des, .footer-des1{
     color:white;
 }
+.footer-title{
+    margin-top: 20px;
+}
 .footer-des{
-    margin-bottom:30px;
+    margin-bottom:10px;
 }
 .social-media{
     width:50Px;
@@ -290,18 +309,21 @@ nav ul{
 .social-icons1{
     background-color: aqua;
     margin:5px;
+    border-radius: 50%;
 }
 .social-icons2{
     background-color:red;
     width:25Px;
     height: 25px;
     margin:5px;
+    border-radius: 50%;
 }
 .social-icons3{
     background-color: blue;
     width:25Px;
     height: 25px;
     margin:5px;
+    border-radius: 50%;
 }
 .social-media{
     display: flex;
@@ -309,3 +331,13 @@ nav ul{
     margin-left:500Px;
 }
 /* footer section end */
+
+
+
+
+
+/* ResPonsive design start */
+@media only screen and (max-width: 600px) {
+    
+}
+/* ResPonsive design end */
